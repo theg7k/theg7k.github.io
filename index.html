@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>theg7k Blog</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-content">
+            <h1>Welcome to theg7k Blog</h1>
+            <p>Where thoughts and ideas come to life</p>
+            <a href="#blog" class="btn">Read the Blog</a>
+        </div>
+    </header>
+
+    <section class="intro">
+        <div class="container">
+            <h2>What’s this blog about?</h2>
+            <p>This blog covers a variety of topics, ranging from technology and programming to lifestyle and productivity. Stay tuned for interesting articles and insights!</p>
+        </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Blog Posts</h2>
+            <div id="posts-container"></div>
+            <button id="add-post-btn" class="btn">Add Post</button>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>If you would like to reach out, feel free to send a message to <a href="mailto:theg7k@gmail.com">theg7k@gmail.com</a>.</p>
+            <form action="#">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 theg7k Blog. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Quill Text Editor -->
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
